@@ -1,0 +1,47 @@
+[
+  {"response_type": "greeting",
+   "user_input": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+   "bot_response": ["Hello","Hi there, how can I help?", "Good to see you again!"],
+   "context_set": ""
+  },
+  {"response_type": "goodbye",
+   "user_input": [  "Goodbye", "Have a Good day"],
+   "bot_response": ["See you later!","Goodbye!"],
+   "context_set": ""
+  },
+  {"response_type": "flavours",
+   "user_input": ["What flavours you have", "Flavours you have", "what are the flavours"],
+   "bot_response": ["we have French vanila, Coco mocho, Butterscotch, Caramel"],
+   "context_set": ""
+  },
+  {"response_type": "name",
+   "user_input": ["what is your name", "what should I call you", "whats your name?"],
+   "bot_response": ["You can call me Cafe Bot.", "I'm Cafe Bot!"],
+   "context_set": ""
+  },
+  {"response_type": "shop",
+   "user_input": ["Id like to buy something", "whats on the menu", "what do you reccommend?", "could i get something to eat"],
+   "bot_response": ["We sell Cofees and chocolate chip cookies ", "Cofees and chocolate cookies  are on the menu!"],
+   "context_set": ""
+  },
+
+
+{"response_type": "order",
+ "user_input": [  "order one coco mocho","order two coco Butterscotch","order one coco vanila","order two caramel"],
+ "bot_response": ["Great! your oder confirm","I will confirm your order"],
+ "context_set": ""
+},
+
+  {"response_type": "hours",
+   "user_input": ["when are you guys open", "what are your hours", "hours of operation"],
+   "bot_response": ["We are open 7am-4pm Monday-Friday!"],
+   "context_set": ""
+  } ,
+
+  {"response_type": "thank you",
+    "user_input": ["thank you", "thanks"],
+    "bot_response": ["Welcome, we will reserve you to table and have a nice day","Ok,Have a nice day"],
+    "context_set": ""
+   }
+]
+
